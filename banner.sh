@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Date: 24/07/2016
+# Author: AzagraMac
+# Version: 1.2
+# License: GPL
+#
+
 logo="$(tput setaf 2)
        .~~.   .~~.
       '. \ ' ' / .'$(tput setaf 1)
@@ -21,3 +28,4 @@ else
 	/etc/init.d/bootlogs
 	echo "Updated MOTD. Log in to see the new logo."
 fi
+
